@@ -1,27 +1,14 @@
 body {
-    background-color: rgb(199, 199, 56);
-    padding: 20px;
+    background-color: rgb(80, 10, 10);
 }
 
-#funfont {
-    font-family: Georgia, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+button {
+    background-color: rgb(134, 146, 116);
+    color: rgb(255, 255, 255)
 }
 
-.head {
-    display: inline-block;
-    background: rgb(82, 44, 234);
-    margin: 10px;
-    border-radius: 8px;
+h1 {
+    color: rgba(233, 198, 176, 0.668);
 }
 
-.img {
-    width: 200px;
-}
-
-#suggestion-box {
-    display: inline-block;
-    background-color: pink;
-    margin-top: 20px;
-    font-size: 18px;
-    color: red;
-}
+output { color: white}
