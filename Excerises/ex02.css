@@ -1,0 +1,28 @@
+p {color: black; font-size: large; margin-right: 130px; padding: 15x; background-color: rgb(169, 230, 169);}
+
+p strong {font-weight: normal;}
+
+li{ text-align: center; } 
+
+html { font-family: "Mystery Quest", cursive; 
+background-color: rgb(82, 143, 143);}
+
+span {background-color: rgb(80, 80, 196);}
+
+/* select all html tags that have the class highlight_01 */
+.highlight_01 {background-color: lightblue}
+
+.highlight_02 {background-color: rgb(129, 222, 129)}
+
+.highlight_03 {background-color: rgb(220, 79, 79)}
+
+IMG {width: 150px; height: auto; border: 10px solid rgb(130, 2, 47); border-radius: 5px;}
+
+#laugh_big {width: 150px}
+#laugh_medium {width: 100px}
+#laugh_small {width: 50px}
+
+.test-div {background: rgb(233, 179, 77); 
+    margin: 30px;
+    padding: 40px;
+} 
