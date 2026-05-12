@@ -89,31 +89,55 @@ body {
 }
 
 .topzone {
-    display: none;
+  display: none;
 
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 
-    margin-top: 40px;
-    flex-wrap: wrap;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .topzone img {
-    width: 250px;
-    height: 350px;
-    object-fit: cover;
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
 
-    border-radius: 15px;
-    border: 3px solid gold;
+  border-radius: 15px;
+  border: 3px solid rgb(76, 5, 0);
 
-    cursor: pointer;
+  cursor: pointer;
 
-    transition: transform 0.3s ease,
-                box-shadow 0.3s ease;
+  transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .topzone img:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px gold;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgb(237, 0, 0);
+}
+
+#death-screen {
+  margin-top: 200px;
+}
+
+#death-screen h1 {
+  color: red;
+  font-size: 100px;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 20px black;
+}
+
+#retry-button {
+  padding: 15px 30px;
+  font-size: 24px;
+
+  background-color: black;
+  color: white;
+
+  border: 2px solid red;
+  border-radius: 10px;
+
+  cursor: pointer;
 }
