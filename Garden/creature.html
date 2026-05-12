@@ -21,19 +21,20 @@
 
 <body>
     <!-- Main content goes here, inside BODY -->
-    <h1> Creature's Garden </h1>
 
+    <h1>Creature's Garden</h1>
+
+    <!-- ADD CREATURES TO THE GARDEN -->
+
+    <!-- adding creatures -->
     <div id="creature-form">
-
-        <div>Name: <input type="text" id="crName"></div>
-        <div><button id="crAdd">Add Creature</button></div>
-
+        <div>Name: <input type="text" id="crName" placeholder="More than 2 symbols"> </div>
+        <div>Color: <input type="color" id="crColor"> </div>
+        <div>Number of Eyes: <input type="number" id="crEyesNum" max="5" min="0" value="1"> </div>
+        <div> <button id="crAdd">Add Creature</button> </div>
     </div>
 
-    <div id="creature-list">
-
-    </div>
-
-</body>
+    <!-- showing creatures -->
+    <div id="creature-list"> </div>
 
 </html>
