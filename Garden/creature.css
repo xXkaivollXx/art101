@@ -8,28 +8,40 @@ html {
 
 
 #creature-form {
-    background: #73fa51;
-    padding: 20px;
-    margin: 50px;
+   background: #3bd503;
+   padding: 30px;
+   margin: 50px;
 }
 
-#creature-form DIV {
-    margin-bottom: 20px;
-}
 
 #creature-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin: 50px;
 }
 
+
+#creature-form DIV {
+   margin-bottom: 10px;
+}
 
 #creature-list>DIV {
-    background: rgb(5, 126, 128);
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
+
+
+.creature-body {
+   background: rgb(127, 63, 2);
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 100px;
+   height: 100px;
+}
+
+.eye {height: 18px; width: 10px; border: 2px solid
+#000; border-radius: 10px; background: #fff;}
