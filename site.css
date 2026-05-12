@@ -1,12 +1,11 @@
 body {
-    background: #0f3889;
+    background: #002060;
     padding: 50px;
 }
 
 h1,
-h2,
 h3 {
-    color: #000000;
+    color: #d0d0d0;
     font-family: sans-serif;
 }
 
@@ -18,7 +17,7 @@ img {
 #page {
     max-width: 1000px;
     margin: 0 auto 0 auto;
-    background: rgb(27, 0, 177);
+    background: rgb(19, 2, 121);
     padding: 50px;
 }
 
