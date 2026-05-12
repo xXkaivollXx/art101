@@ -11,4 +11,6 @@ h1 {
     color: rgba(233, 198, 176, 0.668);
 }
 
-output { color: white}
+output {
+    color: white
+}
