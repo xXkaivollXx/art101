@@ -45,7 +45,7 @@ $(document).ready(function () {
 
         // Reset background
         $("body").css({
-            "background-image": "url('EldenRingEnviron.jpeg')"
+            "background-image": "url('EldenRingEnvironDay.jpeg')"
         });
 
     });
@@ -86,30 +86,27 @@ $(document).ready(function () {
 
         if (userChoice == 1) {
 
-            $("body").css({
-                "background-color": "#3bc6fd",
-                "color": "black"
-            });
+            $("body").css(
+                "background-image", "url('EldenRingEnvironDay.jpeg')"
+            );
 
             $("#environment-output").html("<h2>It's Daytime!</h2> <p>The area seems peaceful</p>");
         }
 
         else if (userChoice == 2) {
 
-            $("body").css({
-                "background-color": "#FF8C42",
-                "color": "white"
-            });
+            $("body").css(
+                "background-image", "url('EldenRingEnvironEve.jpeg')"
+            );
 
             $("#environment-output").html("<h2>The sun begins to set...</h2> <p>Begin to prepare yourself</p>");
         }
 
         else if (userChoice == 3) {
 
-            $("body").css({
-                "background-color": "#0B0B2B",
-                "color": "white"
-            });
+            $("body").css(
+                "background-image", "url('EldenRingEnviron.jpeg')"
+            );
 
             $("#environment-output").html("<h2>It's now Night</h2> <p>Do your best to survive</p>");
         }
