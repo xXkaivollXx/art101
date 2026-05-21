@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(36, 86, 36);
+   background-color: rgb(36, 86, 36);
 }
 
 html {
-    font-family: 'Tecate', sans-serif;
+   font-family: 'Tecate', sans-serif;
 }
 
 
@@ -43,5 +43,10 @@ html {
    height: 100px;
 }
 
-.eye {height: 18px; width: 10px; border: 2px solid
-#000; border-radius: 10px; background: #fff;}
+.eye {
+   height: 18px;
+   width: 10px;
+   border: 2px solid #000;
+   border-radius: 10px;
+   background: #fff;
+}
