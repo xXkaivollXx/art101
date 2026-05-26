@@ -1,9 +1,15 @@
-.test-div {background: blue;
+.test-div {
+    background: blue;
     padding: 20px;
     margin: 20px;
     color: rgb(255, 171, 14)
 }
 
+.my-flex {
+    display: flex;
+    background-color: rgb(3, 120, 28)
+}
 
-
-.my-flex {display: flex;}
+html {
+    background-color: aquamarine;
+}
