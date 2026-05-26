@@ -13,6 +13,10 @@ img {
     width: 200px;
 }
 
+h4 {
+    color: white
+}
+
 
 #page {
     max-width: 1000px;
