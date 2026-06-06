@@ -75,6 +75,22 @@ function renderCreature(creature) {
     return html;
 }
 
+function loadCreaturesFromDB() {
+    creatureRef.once("value").then(snapshot => {
+        const data = snapshot.val() || {};
+        allCreatures = Object.keys(data).map(id => data[id]);
+        renderAllCreatures();
+    });
+}
+
+function renderAllCreatures() {
+    $("#creature-list").empty();
+
+    allCreatures.forEach((cr, index) => {
+        addCreatureToDOM(cr);
+    });
+}
+
 function addCreatureToDOM(creature) {
     const html = renderCreature(creature);
     $("#creature-list").append(html);
@@ -110,6 +126,12 @@ $("#crAdd").click(async function () {
         return;
     }
 
-    addCreatureToDOM(newCreature)
+    allCreatures.push(newCreature);
+    addCreatureToDOM(newCreature);
+    creatureRef.push(newCreature);
 
+});
+
+$("#btn-load").click(function () {
+    loadCreaturesFromDB();
 });
