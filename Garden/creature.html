@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="creature.css">
     <!-- jQuery library -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
     <!-- Link to external JavaScript file -->
     <script src="creature.js" DEFER></script>
-
+    <script src="firebase.js" DEFER></script>
     <link href="https://fonts.cdnfonts.com/css/tecate" rel="stylesheet">
 
 
@@ -32,10 +34,9 @@
         <div>Color: <input type="color" id="crColor"> </div>
         <div>Number of Eyes: <input type="number" id="crEyesNum" max="5" min="0" value="1"> </div>
         <div><input type="checkbox" id="crRandom" value="yes"> <label for="crRandom">Randomize<label></div>
-        <button id="add-creature">Let It Roam</button>
-        <p>
         <div> <button id="crAdd">Add Creature</button> </div>
         </p>
+        <div> <button id="btn-load">Load Creatures</button> </div>
     </div>
 
     <!-- showing creatures -->
